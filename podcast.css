@@ -1,0 +1,185 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.programs{
+  text-align: center;
+}
+
+h4{
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.creator{
+  margin: 15px;
+  margin-left: 5px;
+  text-align: center;
+  display: block;
+  font-family: sans-serif;
+}
+
+footer{
+  height: 10vh;
+  width: 100%;
+  background-color: pink;
+  font-size: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color: beige;
+}
+
+/*navbar*/
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: -11vh;
+    background-color: white;
+
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 15px;
+}
+
+.menu a:hover{
+  color: grey;
+  cursor: pointer;
+  transition-delay: .1s;
+  transition-duration: .1s;
+}
+
+/*responsive navbar*/
+
+@media only screen and (max-width: 670px) {
+
+    .menu {
+        width: 100%;
+    }
+    .menu a {
+        display: inline;
+    }
+
+    .academy{
+      padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  .podcast{
+    padding-bottom: 10vh;
+  }
+
+  .programs h4{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 546px){
+  .podcast{
+    padding-top: 0;
+    padding-bottom: 20vh;
+  }
+
+  .about{
+    padding-bottom: 5vh;
+  }
+}
+
+
+
+/* heading */
+
+.heading{
+    height: 90%;
+  background-size: cover;
+  text-align: center;
+  background-image: url(mic.jpeg);
+  width: 100%;
+  color: white;
+    background-size: contain;
+}
+
+.heading h1{
+  padding-top: 10%;
+  font-size: 650%;
+  margin-bottom: 0;
+  margin-left: -5px;
+}
+
+.heading h4{
+  padding-bottom: 10vh;
+}
+
+.heading h4, h3{
+  font-size: 40px;
+}
+
+.heading button{
+  background-color: black;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-top: 5%;
+}
+
+.heading button:hover{
+  background-color: white
+  border: black;
+  transition-delay: .1s;
+  transition-duration: .4s;
+  cursor: pointer;
+}
+
+.heading a{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about h4{
+  margin-top: 1.75rem;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contact{
+  display: inline-flex;
+  position: absolute;
+  margin-left: 1%;
+}
+
+.pinsta{
+  display: inline;
+}
+
+.heading button a:hover{
+  color: black;
+}
+
+.heading button:hover{
+  background-color: white;
+  border-color: black;
+}

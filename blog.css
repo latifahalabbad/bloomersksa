@@ -1,0 +1,201 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+button{
+  padding: .7rem 1.5rem;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+hr{
+  border : 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.programs{
+  text-align: center;
+}
+
+h4{
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.creator{
+  margin: 15px;
+  margin-left: 5px;
+  text-align: center;
+  display: block;
+  font-family: sans-serif;
+}
+
+footer{
+  height: 10vh;
+  width: 100%;
+  background-color: pink;
+  font-size: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color: beige;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*navbar*/
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: -11vh;
+    background-color: white;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 15px;
+}
+
+.menu a:hover{
+  color: grey;
+  cursor: pointer;
+  transition-delay: .1s;
+  transition-duration: .1s;
+}
+
+/*responsive navbar*/
+
+@media only screen and (max-width: 670px) {
+
+    .menu {
+        width: 100%;
+    }
+    .menu a {
+        display: inline;
+    }
+
+    .academy{
+      padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  .podcast{
+    padding-bottom: 10vh;
+  }
+
+  .programs h4{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 546px){
+  .podcast{
+    padding-top: 0;
+    padding-bottom: 20vh;
+  }
+
+  .about{
+    padding-bottom: 5vh;
+  }
+}
+
+
+
+/* heading */
+
+.heading{
+  height: 90%;
+  background-size: cover;
+  text-align: center;
+  background-image: url(blog.png);
+  background-size: contain;
+  width: 100%;
+  margin-bottom: -10vh;
+}
+
+.heading h1{
+  padding-top: 15%;
+  font-size: 650%;
+  margin-bottom: 0;
+  margin-left: -5px;
+  color: white;
+}
+
+.heading h4{
+  padding-bottom: 10vh;
+}
+
+.heading h4, h3{
+  font-size: 40px;
+}
+
+/* about */
+
+.about{
+  text-align: center;
+  height: 250px;
+  margin-top: 35vh;
+}
+
+.about button{
+  background-color: black;
+  color: white;
+}
+
+/*academy*/
+
+.academy{
+  text-align: center;
+  height: 300px;
+  background-color: inherit;
+}
+
+.academy button{
+  font-size: 25px;
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.academy h3{
+  color: black;
+  padding-top: 10px;
+  padding-top: 4.5rem;
+  text-decoration-color: black;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.academy button{
+  background-color: black;
+  color: white;
+  background-color: black;
+}
+
+.academy button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+  transition-delay: .1s;
+  transition-duration: .2s;
+  cursor: pointer;
+}
