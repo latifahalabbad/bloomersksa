@@ -179,7 +179,7 @@ footer a{
   border-radius: 200px;
 }
 
-.jheading, .cheading, .mheading{
+.jheading h3, .cheading, .mheading{
   font-weight: 700;
   text-decoration-line:  underline;
   text-decoration-color: inherit;
@@ -217,12 +217,35 @@ footer a{
   background-color: black;
   color: white;
   border: white 1px solid;
+  margin-top: -.005rem;
 }
 
 .jheading button:hover{
   background-color: white;
   color: black;
   border: black 1px solid;
+  transition-delay: .1s;
+  transition-duration: .2s;
+  cursor: pointer;
+}
+
+.jheading .link{
+  text-decoration: none;
+  color: blue;
+  font-size: 500;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: .15rem;
+  display: block;
+  width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.jheading .link:hover{
+  color: white;
+  background-color: blue;
   transition-delay: .1s;
   transition-duration: .2s;
   cursor: pointer;
